@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  LifeCycle
 //
 //  Created by Mark Meretzky on 12/28/18.
@@ -8,11 +8,11 @@
 
 import UIKit;
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad();
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view.
         print("\(type(of: self)) viewDidLoad");
     }
     
@@ -36,5 +36,15 @@ class ViewController: UIViewController {
         print("\(type(of: self)) viewDidDisappear");
     }
     
-}
 
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}

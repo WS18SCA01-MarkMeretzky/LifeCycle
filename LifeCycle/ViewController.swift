@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         print("\(type(of: self)) viewDidLoad");
         if let nibName: String = nibName {
-            print("nibName = \(nibName)");
+            print("nibName = \(nibName)");   //Where was the view loaded from?
         }
     }
     

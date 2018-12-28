@@ -14,6 +14,9 @@ class SecondViewController: UIViewController {
         super.viewDidLoad();
         // Do any additional setup after loading the view.
         print("\(type(of: self)) viewDidLoad");
+        if let nibName: String = nibName {
+            print("nibName = \(nibName)");
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

@@ -14,9 +14,6 @@ class SecondViewController: UIViewController {
         super.viewDidLoad();
         // Do any additional setup after loading the view.
         print("\(type(of: self)) viewDidLoad");
-        if let nibName: String = nibName {
-            print("nibName = \(nibName)");   //Where was the view loaded from?
-        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -38,7 +35,6 @@ class SecondViewController: UIViewController {
         super.viewDidDisappear(animated);
         print("\(type(of: self)) viewDidDisappear");
     }
-    
 
     /*
     // MARK: - Navigation
